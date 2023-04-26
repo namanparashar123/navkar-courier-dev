@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <Navigation />
       <h1 className='title'>Navkar Courier Ltd.</h1>
     </div>

@@ -2,8 +2,12 @@ body {
   background-color: #191715;
 }
 
+.main-container {
+  margin-top: 200px;
+}
+
 .title {
-  font-size: 72px;
+  font-size: 100px;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

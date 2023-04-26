@@ -1,18 +1,25 @@
 .navigation {
-    background-color: orange;
-    padding: 1rem;
-    margin: 2rem auto;
-    width: 50rem;
-    max-width: 95%;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 1px 8px #ffbf80;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem;
 }
 
 .nav-bar {
-    list-style-type: none;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline;
+  float: left;
+  list-style: none;
+  text-align: center;
+  border: 2px #ffffff;
+  border-radius: 30px;
 }
 
 .nav-bar_drop {
-    list-style-type: none;
+  list-style-type: none;
 }

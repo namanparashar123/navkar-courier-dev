@@ -1,4 +1,18 @@
+.navigation {
+    background-color: orange;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px #ffbf80;
+}
+
 .nav-bar {
-    display: inline-block;
     list-style-type: none;
-};
+}
+
+.nav-bar_drop {
+    list-style-type: none;
+}

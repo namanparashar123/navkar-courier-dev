@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
         <div>
-        <img src="/images/NAVKAR-footer.png" alt="logo" />
+        <img src={require("/images/logo.png")} alt="logo" />
         </div>
       <ul className="nav-bar">
         <li>Home</li>

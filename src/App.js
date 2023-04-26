@@ -1,9 +1,14 @@
 import React from 'react';
+import Navigation from './Components/Navigation';
+
 import './App.css';
 
 function App() {
   return (
-    <div>Lets Start this!</div>
+    <div>
+      <h1 className='title'>Navkar Courier Ltd.</h1>
+      <Navigation />
+    </div>
   );
 }
 

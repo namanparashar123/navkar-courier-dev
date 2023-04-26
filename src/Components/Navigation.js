@@ -5,6 +5,9 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div className="navigation">
+        <div>
+        <img src="/images/NAVKAR-footer.png" alt="logo" />
+        </div>
       <ul className="nav-bar">
         <li>Home</li>
         <li>Compnay</li>

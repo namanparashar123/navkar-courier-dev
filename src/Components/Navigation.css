@@ -13,13 +13,8 @@
   color: #ffffff;
   font-size: 20px;
   display: inline;
-  float: left;
   list-style: none;
   text-align: center;
   border: 2px #ffffff;
   border-radius: 30px;
-}
-
-.nav-bar_drop {
-  list-style-type: none;
 }

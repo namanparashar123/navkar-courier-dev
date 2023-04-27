@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
 .navigation {
   position: absolute;
   top: 50px;
-  width: 100%;
+  width: 75%;
   height: 4rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 2rem;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-bar {
@@ -29,7 +32,55 @@
   text-align: center;
 }
 
-.nav-bar li :hover {
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.nav-bar li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+  transition: all 0.5s;
+}
+
+.nav-bar li a:before {
+  transition: all 2s;
+}
+
+.nav-bar li a:hover {
+  color: fff;
+}
+
+/* .nav-bar li:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
+} */
+
+.nav-bar li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+.nav-bar li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+.nav-bar li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
 }

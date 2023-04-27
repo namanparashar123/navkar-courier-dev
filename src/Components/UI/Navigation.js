@@ -7,21 +7,22 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <div className="nav-logo">
-        <a href="www.google.com">
+        <a href="/">
           <img src={logo} alt="logo" />
         </a>
       </div>
       <ul className="nav-bar">
-        <li>Home</li>
-        <li>Company
+        <li><a href='/'>Home</a></li>
+        <li><a href='./Company'>Company
           {/* <ul className="nav-bar_drop">
             <li>About Us</li>
             <li>Careers</li>
             <li>Locations</li>
           </ul> */}
+          </a>
         </li>
-        <li>Services</li>
-        <li>Contact Us</li>
+        <li><a href='/'>Services</a></li>
+        <li><a href='/'>Contact Us</a></li>
       </ul>
     </div>
   );

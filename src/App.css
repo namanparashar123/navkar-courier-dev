@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+
 body {
   background-color: #191715;
   margin: 0;
@@ -13,7 +16,8 @@ body {
 
 .title {
   font-size: 100px;
-  background: -webkit-linear-gradient(#eee, #333);
+  font-family: 'Pathway Extreme', sans-serif;
+  background: -webkit-linear-gradient(0deg, #e00066, #ff5300);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

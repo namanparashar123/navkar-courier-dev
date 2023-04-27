@@ -9,6 +9,7 @@ function App() {
     <div className="main-container">
       <Navigation />
       <h1 className='title'>Navkar Courier Ltd.</h1>
+      <Footer></Footer>
     </div>
   );
 }

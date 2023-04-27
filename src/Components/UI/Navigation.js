@@ -13,7 +13,13 @@ const Navigation = () => {
       </div>
       <ul className="nav-bar">
         <li>Home</li>
-        <li>Company</li>
+        <li>Company
+          {/* <ul className="nav-bar_drop">
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Locations</li>
+          </ul> */}
+        </li>
         <li>Services</li>
         <li>Contact Us</li>
       </ul>

@@ -2,9 +2,10 @@ import React from 'react';
 import Navigation from './Components/UI/Navigation';
 import Footer from './Components/UI/Footer';
 import Home from './Components/Pages/Home';
-import Services from './Components/Pages/Services';
 
 import './App.css';
+import Contact from './Components/Pages/Contact';
+import Services from './Components/Pages/Services';
 
 function App() {
   return (
@@ -12,7 +13,6 @@ function App() {
       <Navigation />
       <div className='title-bg'><h1 className='title'>Navkar Courier Ltd.</h1></div>
       <Home />
-      <Services></Services>
       <Footer></Footer>
     </div>
   );

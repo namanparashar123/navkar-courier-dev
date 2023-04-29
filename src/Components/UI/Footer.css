@@ -8,4 +8,9 @@
 
   .footercol{
     color: white;
+    margin: 30px;
+  }
+
+  .line{
+    border-top: 1px solid white;
   }

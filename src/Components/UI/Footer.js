@@ -32,7 +32,7 @@ const Footer = () => {
       <div>
       </div>
       </div>
-      <div className="footer">{`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved | Designed and developed by Naman Parashar`}
+      <div className="footer line">{`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved | Designed and developed by Naman Parashar`}
       </div>
       </div>
     </footer>

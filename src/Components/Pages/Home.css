@@ -28,4 +28,6 @@
 .vision-content {
   font-weight: bolder;
   width: 100%;
+  text-align: justify;
+  padding: 0px 10px;
 }

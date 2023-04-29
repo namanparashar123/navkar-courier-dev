@@ -24,10 +24,10 @@ const Footer = () => {
       <div className="col-sm-3 links">
           <h5 > Our Company</h5>
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Contact Us</li>
+              <li><a href='/'>Home</a></li>
+              <li><a href='/company'>Company </a></li>
+              <li><a href='/Services'>Services</a></li>
+              <li><a href='/contact'>Contact Us</a></li>
             </ul>
       <div>
       </div>

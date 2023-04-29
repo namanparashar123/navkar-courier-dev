@@ -5,3 +5,10 @@
     margin-top: auto;
     padding: 8px;
   }
+
+  .footerImg{
+    width: 30%;
+    vertical-align: middle;
+    border-style: none;
+    padding: 0;
+  }

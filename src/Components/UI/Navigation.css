@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 
 .navigation {
   position: absolute;
@@ -9,13 +9,12 @@
   justify-content: space-around;
   align-items: center;
   padding: 0 2rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Pathway Extreme", sans-serif;
 }
 
 .nav-bar {
+  display: flex;
   padding: 10px;
-  border: 1px solid #f3f3f3;
-  border-radius: 50px 25px;
 }
 
 /* .nav-bar :hover {
@@ -36,7 +35,6 @@
   text-decoration: none;
   color: white;
   padding: 15px;
-  text-transform: uppercase;
 }
 
 .nav-bar li a:after {
@@ -60,12 +58,6 @@
 .nav-bar li a:hover {
   color: fff;
 }
-
-/* .nav-bar li:hover {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-} */
 
 .nav-bar li a:after {
   text-align: left;

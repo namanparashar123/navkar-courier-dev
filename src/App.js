@@ -2,10 +2,11 @@ import React from 'react';
 import Navigation from './Components/UI/Navigation';
 import Footer from './Components/UI/Footer';
 import Home from './Components/Pages/Home';
-
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
+
+import './App.css';
 
 function App() {
   return (

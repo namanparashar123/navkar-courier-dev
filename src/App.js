@@ -3,9 +3,10 @@ import Navigation from './Components/UI/Navigation';
 import Footer from './Components/UI/Footer';
 import Home from './Components/Pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
+
+import './App.css';
 
 function App() {
   return (

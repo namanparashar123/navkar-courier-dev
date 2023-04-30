@@ -1,7 +1,10 @@
 import React from 'react'
+import Locations from './Locations';
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <Locations />
+    </div>
   )
 }

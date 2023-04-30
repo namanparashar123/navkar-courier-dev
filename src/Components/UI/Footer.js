@@ -23,7 +23,7 @@ const Footer = () => {
         <p>Mobile No: +1(204)999-3472</p>
       </div>
       <div className="col-sm-3 links">
-          <h5 > Our Company</h5>
+          <h5> Our Company</h5>
             <ul className="footer_nav">
               <li><a href='/'>Home</a></li>
               <li><a href='/company'>Company </a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
       <div>
       </div>
       </div>
-      <div className="footer line">{`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved  |  Designed and developed by Naman Parashar`}
+      <div className="footer line">{`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved | Designed and developed by Naman Parashar`}
       </div>
       </div>
     </footer>

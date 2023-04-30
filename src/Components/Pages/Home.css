@@ -8,7 +8,10 @@
   font-size: 34px;
   font-family: 'Pathway Extreme', sans-serif;
   color: white;
-  background-image: url("../images/vision.jpeg");
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .vision {
@@ -27,4 +30,6 @@
 .vision-content {
   font-weight: bolder;
   width: 100%;
+  text-align: justify;
+  padding-right: 20px;
 }

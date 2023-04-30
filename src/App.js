@@ -10,12 +10,18 @@ import './App.css';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="main-container">
       <Navigation />
       <div className='title-bg'><h1 className='title'>Navkar Courier Ltd.</h1></div>
-      <Home />
+      <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/services" element={<Services />}/>
+          <Route path="/contact" element={<Contact />}/>
+       </Routes>
       <Footer></Footer>
     </div>
+    </BrowserRouter>
   );
 }
 

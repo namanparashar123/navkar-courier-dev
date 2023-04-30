@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.locations_container {
+  display: flex;
+  font-family: 'Pathway Extreme', sans-serif;
+  justify-content: center;
+  margin-top: 30px;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.locations_list {
+    font-size: 34px;
+    width: 100%;
+}
+
+.locations_list li {
+    list-style-type: none;
+}

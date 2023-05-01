@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 
+.main_div {
+  font-family: "Pathway Extreme", sans-serif;
+  color: white;
+}
+
 .home_container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 75px;
-  font-size: 34px;
-  font-family: 'Pathway Extreme', sans-serif;
-  color: white;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 25px;
 }
 
 .vision {
@@ -32,4 +31,76 @@
   width: 100%;
   text-align: justify;
   padding-right: 20px;
+}
+
+.target {
+  width: 100%;
+  margin-top: 75px;
+  padding: 75px 100px 50px 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.main_div h3 {
+  padding: 0px 100px;
+}
+
+.service_button {
+  padding: 10px;
+  background-color: #5a5a5a;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.service_button:hover {
+  background-color: white;
+  color: #5a5a5a;
+  transition: 0.5s;
+}
+
+.interest {
+  text-align: center;
+  padding: 40px;
+}
+
+.offer_cards {
+  display: flex;
+  padding: 50px;
+  margin: 50px;
+  color: white;
+  font-family: "Pathway Extreme", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offer_cards h1 {
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.icons {
+  padding-bottom: 20px;
+  color: #4d4a4a;
+  text-align: center;
+}
+
+.offer_cards_card1,
+.offer_cards_card2,
+.offer_cards_card3 {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  padding: 30px;
 }

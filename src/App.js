@@ -5,6 +5,7 @@ import Home from './Components/Pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './App.css';
 

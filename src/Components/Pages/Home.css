@@ -1,23 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.main_div {
+  font-family: "Pathway Extreme", sans-serif;
+  color: white;
+  margin-top: 100px;
+}
 
 .home_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
-  font-size: 34px;
-  font-family: 'Pathway Extreme', sans-serif;
-  color: white;
-  background-image: url("../images/vision.jpeg");
+  font-size: 25px;
 }
 
 .vision {
   display: flex;
-  width: 100%;
+  width: 75%;
   align-items: center;
   justify-content: center;
-  font-size: 120px;
+  font-size: 70px;
   font-weight: bolder;
   background: -webkit-linear-gradient(#fff, #4d4a4a);
   background-clip: text;
@@ -29,5 +30,112 @@
   font-weight: bolder;
   width: 100%;
   text-align: justify;
-  padding: 0px 10px;
+  padding-right: 20px;
+}
+
+.target {
+  width: 100%;
+  margin-top: 75px;
+  padding: 75px 100px 50px 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.main_div h3 {
+  padding: 0px 100px;
+}
+
+.button_div {
+  display: flex;
+  justify-content:space-around;
+}
+
+.service_button {
+  padding: 10px;
+  background-color: #5a5a5a;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.service_button:hover {
+  background-color: white;
+  color: #5a5a5a;
+  transition: 0.5s;
+}
+
+.service_button_card {
+  display: flex;
+  width: 30%;
+  padding: 10px;
+  margin-left: 35%;
+  background-color: #5a5a5a;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.service_button_card:hover {
+  background-color: white;
+  color: #5a5a5a;
+  transition: 0.5s;
+}
+
+.interest {
+  text-align: center;
+  margin: 45px;
+  padding: 50px;
+  font-size: 75px;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.offer_cards {
+  display: flex;
+  padding: 50px;
+  margin: 25px 40px 40px 35px;
+  color: white;
+  font-family: "Pathway Extreme", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offer_cards h1 {
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.offer_cards p {
+  text-align: center;
+}
+
+.icons {
+  width: 100%;
+  padding-bottom: 20px;
+  color: #4d4a4a;
+}
+
+.offer_cards_card1,
+.offer_cards_card2,
+.offer_cards_card3 {
+  width: 100%;
+  border: 3px #808080;
+  border-radius: 12px;
+  padding: 30px;
+  /* background-color: #808080; */
 }

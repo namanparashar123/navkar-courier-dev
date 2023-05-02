@@ -1,25 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 
-body {
-  background-color: #191715;
-  margin: 0;
-  padding: 0;
-}
-
 .main-container {
-  margin-top: 200px;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #191715;
 }
 
 .title {
-  font-size: 100px;
+  font-size: 120px;
+  font-weight: 700;
   font-family: 'Pathway Extreme', sans-serif;
-  background: -webkit-linear-gradient(0deg, #e00066, #ff5300);
+  background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  margin-top: 200px;
 }

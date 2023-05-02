@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faTruckFast, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import {
+  faLocationDot,
+  faTruckFast,
+  faBriefcase,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./Home.css";
 
@@ -34,42 +38,44 @@ const Home = () => {
         prices available within Canada.
       </h3>
       <br />
-      <a className="service_button" href="/Services">
-        Checkout our services?
-      </a>
+      <div className="button_div">
+        <a className="service_button" href="/Services">
+          Checkout our services?
+        </a>
+      </div>
 
       <h1 className="interest">Interested in any of these?</h1>
 
       <div className="offer_cards">
         <div className="offer_cards_card1">
-        <FontAwesomeIcon className="icons" icon={faTruckFast} size="10x"/>
+          <FontAwesomeIcon className="icons" icon={faTruckFast} size="10x" />
           <h1>Ship With Us</h1>
           <br />
           <p>Use our people, process and technology to deliver your packages</p>
-          <a className="service_button" href="/Services">
+          <a className="service_button_card" href="/Services">
             Ship now
           </a>
         </div>
         <div className="offer_cards_card2">
-        <FontAwesomeIcon className="icons" icon={faLocationDot} size="10x"/>
+          <FontAwesomeIcon className="icons" icon={faLocationDot} size="10x" />
           <h1>Track Your Delivery</h1>
           <br />
           <p>
             Want to know where your package is or need to book a re-delivery?
           </p>
-          <a className="service_button" href="./">
+          <a className="service_button_card" href="./">
             Coming soon
           </a>
         </div>
         <div className="offer_cards_card3">
-        <FontAwesomeIcon className="icons" icon={faBriefcase} size="10x"/>
+          <FontAwesomeIcon className="icons" icon={faBriefcase} size="10x" />
           <h1>Work With Us</h1>
           <br />
           <p>
             We're a fast-growing company and offer a wealth of job
             opportunities!
           </p>
-          <a className="service_button" href="/Services">
+          <a className="service_button_card" href="/Services">
             Join us
           </a>
         </div>

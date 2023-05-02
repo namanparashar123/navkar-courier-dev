@@ -3,7 +3,7 @@ import About from './About'
 
 export default function Services() {
   return (
-    <div className="vision">
+    <div>
       <About />
     </div>
   )

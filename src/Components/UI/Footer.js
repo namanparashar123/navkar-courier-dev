@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/Logo.png";
+import footerLogo from "../images/Logo_footer.png";
 
 import "./Footer.css";
 
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="row">
       <div className="col-sm-5 input">
         <a href="/" >
-          <img src={logo} alt="logo" />
+          <img src={footerLogo} alt="logo" />
           <h1>Estd. 2020</h1>
         </a>
       </div>

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 
 .main-container {
- 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #191715;
+  width: 100%;
 }
 
 .title {
@@ -19,3 +19,4 @@
   text-align: center;
   margin-top: 200px;
 }
+

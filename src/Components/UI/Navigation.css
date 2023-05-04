@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 
 .navigation {
-  position: absolute;
-  top: 50px;
+  position: relative;
+  margin-top: 15px;
   width: 100%;
   height: 4rem;
   display: flex;
@@ -10,15 +10,19 @@
   align-items: center;
   padding: 0 2rem;
   font-family: "Pathway Extreme", sans-serif;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 
 .nav-bar {
   display: flex;
   padding: 10px;
   justify-content: right;
+}
+
+#nav-dropdown {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 .nav-bar li {
@@ -32,4 +36,9 @@
 
 .nav-bar li:hover {
   text-transform: capitalize;
+  
+}
+
+.nav-bar li:last-child {
+  margin-left: -25px;
 }

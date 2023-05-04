@@ -17,10 +17,10 @@ const Navigation = () => {
         <Nav.Item as="li">
           <Nav.Link style={{color:"white"}} href="/">Home</Nav.Link>
         </Nav.Item>
-        < NavDropdown title="Company" id="nav-dropdown">
-          <NavDropdown.Item>Action</NavDropdown.Item>
-          <NavDropdown.Item >Another action</NavDropdown.Item>
-          <NavDropdown.Item >Something else here</NavDropdown.Item>
+        < NavDropdown className="nav_dropdown" title="Company" id="nav-dropdown" style={{color: 'white'}}>
+          <NavDropdown.Item>About Us</NavDropdown.Item>
+          <NavDropdown.Item >Careers</NavDropdown.Item>
+          <NavDropdown.Item >Locations</NavDropdown.Item>
       </NavDropdown>
         <Nav.Item as="li">
           <Nav.Link style={{color:"white"}} href='/'>Services</Nav.Link>

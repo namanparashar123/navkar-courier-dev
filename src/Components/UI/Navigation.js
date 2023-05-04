@@ -18,15 +18,15 @@ const Navigation = () => {
           <Nav.Link style={{color:"white"}} href="/">Home</Nav.Link>
         </Nav.Item>
         < NavDropdown className="nav_dropdown" title="Company" id="nav-dropdown" style={{color: 'white'}}>
-          <NavDropdown.Item>About Us</NavDropdown.Item>
-          <NavDropdown.Item >Careers</NavDropdown.Item>
-          <NavDropdown.Item >Locations</NavDropdown.Item>
+          <NavDropdown.Item href="/About" >About Us</NavDropdown.Item>
+          <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
+          <NavDropdown.Item href="/Locations">Locations</NavDropdown.Item>
       </NavDropdown>
         <Nav.Item as="li">
-          <Nav.Link style={{color:"white"}} href='/'>Services</Nav.Link>
+          <Nav.Link style={{color:"white"}} href='/Services'>Services</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link style={{color:"white"}} href='/'>Contact</Nav.Link>
+          <Nav.Link style={{color:"white"}} href='/Contact'>Contact</Nav.Link>
         </Nav.Item>
       </ul>
   </Nav>

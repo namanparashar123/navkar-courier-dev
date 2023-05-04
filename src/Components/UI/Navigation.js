@@ -1,30 +1,35 @@
 import React from "react";
 import logo from "../images/Logo.png";
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <div className="navigation">
-      <div className="nav-logo">
+    <Nav defaultActiveKey="/home" as="ul" className="navigation">
+      <Nav.Item as="li" className="nav-logo">
         <a href="/">
           <img src={logo} alt="logo" />
         </a>
-      </div>
-      <ul className="nav-bar">
-        <li><a href='/'>Home</a></li>
-        <li><a href='./Company'>Company
-          {/* <ul className="nav-bar_drop">
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Locations</li>
-          </ul> */}
-          </a>
-        </li>
-        <li><a href='/Services'>Services</a></li>
-        <li><a href='/Contact'>Contact Us</a></li>
+      </Nav.Item>
+      <ul className="nav-bar"> 
+        <Nav.Item as="li">
+          <Nav.Link style={{color:"white"}} href="/">Home</Nav.Link>
+        </Nav.Item>
+        < NavDropdown title="Company" id="nav-dropdown">
+          <NavDropdown.Item>Action</NavDropdown.Item>
+          <NavDropdown.Item >Another action</NavDropdown.Item>
+          <NavDropdown.Item >Something else here</NavDropdown.Item>
+      </NavDropdown>
+        <Nav.Item as="li">
+          <Nav.Link style={{color:"white"}} href='/'>Services</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link style={{color:"white"}} href='/'>Contact</Nav.Link>
+        </Nav.Item>
       </ul>
-    </div>
+  </Nav>
   );
 };
 

@@ -5,9 +5,11 @@ import Home from './Components/Pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import About from './Components/Pages/About';
+import Careers from './Components/Pages/Careers';
 
 import './App.css';
+import Locations from './Components/Pages/Locations';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
       <div className='title-bg'><h1 className='title'>Navkar Courier Ltd.</h1></div>
       <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/About" element={<About />}/>
+          <Route path="/Careers" element={<Careers />}/>
+          <Route path="/Locations" element={<Locations />}/>
           <Route path="/services" element={<Services />}/>
           <Route path="/contact" element={<Contact />}/>
        </Routes>

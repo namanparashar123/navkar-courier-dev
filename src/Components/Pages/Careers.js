@@ -1,61 +1,30 @@
-import React, { useState } from 'react';
-import './Careers.css';
-import { DropdownButton, Dropdown } from 'react-bootstrap';
+import React from 'react'
+import Accordion from 'react-bootstrap/Accordion';
 
-const CareerPage = () => {
-  const [selectedOption, setSelectedOption] = useState('Drivers');
-
-  const handleOptionChange = (option) => {
-    setSelectedOption(option);
-  };
-
-  const renderDropdown = () => {
-    switch (selectedOption) {
-      case 'Drivers':
-        return (
-          <div>
-            <h3>Drivers</h3>
-            <ul>
-              <li>Flex Driver</li>
-              <li>5-ton truck driver</li>
-            </ul>
-          </div>
-        );
-      case 'Admin':
-        return (
-          <div>
-            <h3>Admin</h3>
-            <ul>
-              <li>Bookkeeper</li>
-            </ul>
-          </div>
-        );
-      case 'Operations':
-        return (
-          <div>
-            <h3>Operations</h3>
-            <ul>
-              <li>Dispatcher</li>
-              <li>Supervisor</li>
-              <li>Manager</li>
-            </ul>
-          </div>
-        );
-      default:
-        return null;
-    }
-  };
-
+export default function Careers() {
   return (
-    <div className="career-page">
-      <DropdownButton className="career-options" id="dropdown-item-button" title={selectedOption}>
-        <Dropdown.Item as="button" onClick={() => handleOptionChange('Drivers')}>Drivers</Dropdown.Item>
-        <Dropdown.Item as="button" onClick={() => handleOptionChange('Admin')}>Admin</Dropdown.Item>
-        <Dropdown.Item as="button" onClick={() => handleOptionChange('Operations')}>Operations</Dropdown.Item>
-      </DropdownButton>
-      {renderDropdown()}
-    </div>
-  );
-};
-
-export default CareerPage;
+    <Accordion>
+    <Accordion.Item eventKey="0">
+      <Accordion.Header>Drivers</Accordion.Header>
+      <Accordion.Body>
+        <li>Flex Driver</li>
+        <li>5-ton Truck Driver</li>
+      </Accordion.Body>
+    </Accordion.Item>
+    <Accordion.Item eventKey="1">
+      <Accordion.Header>Admin</Accordion.Header>
+      <Accordion.Body>
+        <li>Flex Driver</li>
+      </Accordion.Body>
+    </Accordion.Item>
+    <Accordion.Item eventKey="2">
+      <Accordion.Header>Operations</Accordion.Header>
+      <Accordion.Body>
+        <li>Dispatcher</li>
+        <li>Supervisor</li>
+        <li>Manager</li>
+      </Accordion.Body>
+    </Accordion.Item>
+  </Accordion>
+  )
+}

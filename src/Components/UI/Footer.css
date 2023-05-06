@@ -5,15 +5,16 @@
   text-align: center;
   margin-top: auto;
   padding: 8px;
-  font-family: 'Pathway Extreme', sans-serif;
+  font-family: "Pathway Extreme", sans-serif;
 }
 
 .footercol {
   margin: 30px;
-  font-family: 'Pathway Extreme', sans-serif;
+  font-family: "Pathway Extreme", sans-serif;
 }
 
-.m-address h5, .links h5 {
+.m-address h5,
+.links h5 {
   background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -21,7 +22,8 @@
   font-weight: bolder;
 }
 
-.m-address p, .links li {
+.m-address p,
+.links li {
   background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
   background-clip: text;
   -webkit-background-clip: text;

@@ -33,14 +33,14 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 footerIcons">
         <div className="logo">
-           <img style = {{width:'50px', height: '50px', margin:'10px'}} src={fblogo} alt="logo" />
-           <img style = {{width:'50px', height: '50px', margin:'10px'}} src={whatspplogo} alt="logo" />
-           <img style = {{width:'50px', height: '50px', margin:'10px'}} src={instalogo} alt="logo" />
+           <a href="https://www.fb.com"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
+           <img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" />
+           <img style = {{width:'35px', height: '35px', margin:'15px'}} src={instalogo} alt="logo" />
         </div>
-            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'10px'}} size="3x"/>
-            <FontAwesomeIcon icon={faAt} style={{color: "#ffffff", margin:'10px'}} size="3x"/>
+            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
+            <FontAwesomeIcon icon={faAt} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
         </div>
 
         <div className="footer line">

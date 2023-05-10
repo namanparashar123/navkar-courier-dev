@@ -13,6 +13,10 @@
   font-family: "Pathway Extreme", sans-serif;
 }
 
+.links {
+  margin-top: 20px;
+}
+
 .m-address h5,
 .links h5 {
   background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
@@ -70,3 +74,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.logo {
+  display: flex;
+}
+
+/* .footerIcons img:hover {
+  border-radius: 25px;
+  box-shadow: 0 5px 15px;
+} */

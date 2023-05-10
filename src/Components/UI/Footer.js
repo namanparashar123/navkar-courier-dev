@@ -1,7 +1,11 @@
 import React from "react";
 import footerLogo from "../images/Logo_footer.png";
-
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faAt } from '@fortawesome/free-solid-svg-icons'
+import fblogo from "../images/fblogo.png"
+import whatspplogo from "../images/whatspplogo.png"
+import instalogo from "../images/instalogo.png"
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -15,15 +19,6 @@ const Footer = () => {
             <h1>Estd. 2020</h1>
           </a>
         </div>
-
-        <div className="col-sm-4 m-address">
-          <h5>Mailing Address</h5>
-          <p>
-            Address: 50 Chenier Bay <br /> Winnipeg <br /> R3X1K2
-          </p>
-          <p>Email: info@navkarcourier.ca</p>
-          <p>Mobile No: +1(204)999-3472</p>
-        </div>
         <div className="col-sm-3 links">
           <h5> Our Company</h5>
           <ul className="footer_nav">
@@ -34,10 +29,20 @@ const Footer = () => {
               <a href="/Careers">Careers</a>
             </li>
             <li>
-              <a href="/contact">Contact Us</a>
+              <a href="/contact" >Contact Us </a>
             </li>
           </ul>
         </div>
+        <div className="col-sm-4 footerIcons">
+        <div className="logo">
+           <a href="https://www.fb.com"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
+           <img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" />
+           <img style = {{width:'35px', height: '35px', margin:'15px'}} src={instalogo} alt="logo" />
+        </div>
+            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
+            <FontAwesomeIcon icon={faAt} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
+        </div>
+
         <div className="footer line">
           {`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved | Designed and developed by Naman Parashar`}
         </div>

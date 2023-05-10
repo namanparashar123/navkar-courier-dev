@@ -2,7 +2,10 @@ import React from "react";
 import footerLogo from "../images/Logo_footer.png";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAt } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faAt } from '@fortawesome/free-solid-svg-icons'
+import fblogo from "../images/fblogo.png"
+import whatspplogo from "../images/whatspplogo.png"
+import instalogo from "../images/instalogo.png"
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -30,15 +33,14 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="icons">
-          <ul>
-            <li><FontAwesomeIcon icon={faAt} style={{color: "#ffffff",}} size="2x"/></li>
-            <li><FontAwesomeIcon icon={faAt} style={{color: "#ffffff",}} /></li>
-            <li><FontAwesomeIcon icon={faAt} style={{color: "#ffffff",}} /></li>
-            <li><FontAwesomeIcon icon={faAt} style={{color: "#ffffff",}} /></li>
-            <li><FontAwesomeIcon icon={faAt} style={{color: "#ffffff",}} /></li>
-            <li><FontAwesomeIcon icon={faAt} style={{color: "#ffffff",}} /></li>
-          </ul>
+        <div className="col-sm-4">
+        <div className="logo">
+           <img style = {{width:'50px', height: '50px', margin:'10px'}} src={fblogo} alt="logo" />
+           <img style = {{width:'50px', height: '50px', margin:'10px'}} src={whatspplogo} alt="logo" />
+           <img style = {{width:'50px', height: '50px', margin:'10px'}} src={instalogo} alt="logo" />
+        </div>
+            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'10px'}} size="3x"/>
+            <FontAwesomeIcon icon={faAt} style={{color: "#ffffff", margin:'10px'}} size="3x"/>
         </div>
 
         <div className="footer line">

@@ -22,6 +22,8 @@
 
 .about_content {
     padding: 40px;
+    font-size: 25px;
+    font-weight: bold;
     text-align:justify;
     color: white;
 }

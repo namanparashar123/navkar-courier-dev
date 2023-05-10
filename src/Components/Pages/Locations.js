@@ -1,20 +1,89 @@
-import React from 'react';
+import React, { useState } from "react";
+import "./Locations.css";
+import toronto from "../images/Toronto1.jpeg";
+import winnipeg from "../images/winni.png";
+import london from "../images/London.jpeg";
+import brandon from "../images/brandon.jpeg";
 
-import './Locations.css';
 
 const Locations = () => {
-    return <div className='locations_container'>
-        <h1 className='locations'>Our Locations</h1>
-        <div className='locations_list'>
-            <ul>
-                <li>Winnipeg (and towns within 100 kms)</li>
-                <li>Brandon</li>
-                <li>Kenora</li>
-                <li>London</li>
-                <li>Toronto</li>
-            </ul>
-        </div>
+  const slides = [
+    { imageUrl: `${toronto}`, title: "Toronto, ON" },
+    { imageUrl: `${winnipeg}`, title: "Winnipeg, MB" },
+    { imageUrl: `${london}`, title: "London, ON" },
+    { imageUrl: `${brandon}`, title: "Brandon, MB" },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const containerStyles = {
+    width: "900px",
+    height: "300px",
+    margin: "0 auto",
+  };
+
+  const sliderStyles = {
+    height: "100%",
+    position: "relative",
+  };
+
+  const slideStyles = {
+    width: "100%",
+    height: "100%",
+    borderRadius: "10px",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundImage: `url(${slides[currentIndex].imageUrl})`,
+  };
+
+  const leftArrowStyles = {
+    position: "absolute",
+    top: "50%",
+    transform: "translate(0, -50%)",
+    left: "-32px",
+    fontSize: "45px",
+    color: "white",
+    zIndex: 1,
+    cursor: "pointer",
+  };
+
+  const rightArrowStyles = {
+    position: "absolute",
+    top: "50%",
+    transform: "translate(0, -50%)",
+    right: "-32px",
+    fontSize: "45px",
+    color: "white",
+    zIndex: 1,
+    cursor: "pointer",
+  };
+
+  const goToPrev = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToNext = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  return (
+    <div className="prime_container">
+    <div style={containerStyles}>
+        <p className="location_content">Currently Navkar Courier is operating at the locations showing below</p>
+      <div style={sliderStyles}>
+        <div style={leftArrowStyles} onClick={goToPrev}>❰</div>
+        <div style={rightArrowStyles} onClick={goToNext}>❱</div>
+        <div
+          style={slideStyles}
+        ></div>
+      </div>
     </div>
+    </div>
+  );
 };
 
 export default Locations;

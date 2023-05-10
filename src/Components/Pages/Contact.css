@@ -15,7 +15,9 @@
 .contact_content {
   color: white;
   padding: 25px 50px 25px 50px;
-  font-size: 34px;
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
   text-align: center;
 }
 

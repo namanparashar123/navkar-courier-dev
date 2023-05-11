@@ -8,8 +8,8 @@ import brandon from "../images/brandon.jpeg";
 
 const Locations = () => {
   const slides = [
-    { imageUrl: `${toronto}`, title: "Toronto, ON" },
     { imageUrl: `${winnipeg}`, title: "Winnipeg, MB" },
+    { imageUrl: `${toronto}`, title: "Toronto, ON" },
     { imageUrl: `${london}`, title: "London, ON" },
     { imageUrl: `${brandon}`, title: "Brandon, MB" },
   ];

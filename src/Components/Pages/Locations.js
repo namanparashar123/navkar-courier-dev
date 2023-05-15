@@ -71,9 +71,9 @@ const Locations = () => {
   };
 
   return (
+    <div>
     <div className="prime_container">
     <div style={containerStyles}>
-        <p className="location_content">Currently Navkar Courier is operating at the locations showing below</p>
       <div style={sliderStyles}>
         <div style={leftArrowStyles} onClick={goToPrev}>❰</div>
         <div style={rightArrowStyles} onClick={goToNext}>❱</div>
@@ -83,6 +83,17 @@ const Locations = () => {
       </div>
     </div>
     </div>
+    <div className="locations_list">
+    <p className="location_content">Currently Navkar Courier is operating at the locations showing below:</p>
+    <ul>
+      <li>Winnipeg, MB (and towns within 100 kms )</li>
+      <li>Brandon, MB</li>
+      <li>Kenora, ON</li>
+      <li>Toronto, ON</li>
+      <li>London, ON</li>
+    </ul>
+  </div>
+  </div>
   );
 };
 

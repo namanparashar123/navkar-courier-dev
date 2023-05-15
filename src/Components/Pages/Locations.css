@@ -12,14 +12,15 @@
 }
 
 .prime_container {
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .location_content {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
-    padding: 25px;
+    padding: 10px;
     font-family: 'Pathway Extreme', sans-serif;
     text-align: center;
 }
@@ -33,7 +34,11 @@
 
 .locations_list {
     font-size: 34px;
+    font-family: 'Pathway Extreme', sans-serif;
     width: 100%;
+    padding: 0 auto;
+    color: white;
+    text-align: center;
 }
 
 .locations_list li {

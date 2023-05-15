@@ -30,7 +30,6 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className="intro">Say hello!</h1>
       <p className="contact_content">
         Weather you are a customer, driver or a potential client, please reach
         out if you have any questions or feedback for us! We take feedback very

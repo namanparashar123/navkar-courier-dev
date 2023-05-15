@@ -23,10 +23,10 @@ export default function Careers() {
           <Accordion.Header>Drivers</Accordion.Header>
           <Accordion.Body>
             <li>Flex Driver</li>
-            <p>Content to be added</p>
+            <p>Email us at info@navkarcourier.ca with this job title and your resume. We will reach out to you as soon as we can.</p>
             <br />
             <li>5-ton Truck Driver</li>
-            <p>Content to be added</p>
+            <p>Email us at info@navkarcourier.ca with this job title and your resume. We will reach out to you as soon as we can.</p>
           </Accordion.Body>
         </Accordion.Item>
         <br></br>
@@ -34,7 +34,7 @@ export default function Careers() {
           <Accordion.Header>Admin</Accordion.Header>
           <Accordion.Body>
             <li>Bookkeeper</li>
-            <p>Content to be added</p>
+            <p>Email us at info@navkarcourier.ca with this job title and your resume. We will reach out to you as soon as we can.</p>
           </Accordion.Body>
         </Accordion.Item>
         <br></br>
@@ -42,13 +42,13 @@ export default function Careers() {
           <Accordion.Header>Operations</Accordion.Header>
           <Accordion.Body>
             <li>Dispatcher</li>
-            <p>Content to be added</p>
+            <p>Email us at info@navkarcourier.ca with this job title and your resume. We will reach out to you as soon as we can.</p>
             <br />
             <li>Supervisor</li>
-            <p>Content to be added</p>
+            <p>Email us at info@navkarcourier.ca with this job title and your resume. We will reach out to you as soon as we can.</p>
             <br />
             <li>Manager</li>
-            <p>Content to be added</p>
+            <p>Email us at info@navkarcourier.ca with this job title and your resume. We will reach out to you as soon as we can.</p>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

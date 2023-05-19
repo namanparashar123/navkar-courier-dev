@@ -84,9 +84,9 @@ const Locations = () => {
     </div>
     </div>
     <div className="locations_list">
-    <p className="location_content">Currently Navkar Courier is operating at the locations showing below:</p>
+    <p className="location_content">The following cities are where Navkar Courier is now in operation:</p>
     <ul>
-      <li>Winnipeg, MB (and towns within 100 kms )</li>
+      <li>Winnipeg, MB</li>
       <li>Brandon, MB</li>
       <li>Kenora, ON</li>
       <li>Toronto, ON</li>

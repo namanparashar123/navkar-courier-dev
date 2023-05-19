@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 
 .footer {
-  background-color: #191715;
   text-align: center;
-  margin-top: auto;
   padding: 10px;
-  font-family: "Pathway Extreme", sans-serif;
 }
 
 .footercol {
-  margin: 30px;
+  background: -webkit-linear-gradient(#191715, #4d4a4a);
   font-family: "Pathway Extreme", sans-serif;
+  margin-left: 20px;
+}
+
+.row {
+  width: 100%;
 }
 
 .col-sm-3.links {
   margin-top: 20px;
 }
 
-.m-address h5,
 .links h5 {
   background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
   background-clip: text;
@@ -26,7 +27,6 @@
   font-weight: bolder;
 }
 
-.m-address p,
 .links li {
   background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
   background-clip: text;
@@ -69,10 +69,7 @@
 
 .line {
   border-top: 1px solid white;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .logo {

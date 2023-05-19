@@ -4,7 +4,7 @@
   font-family: 'Pathway Extreme', sans-serif;
   margin-top: 75px;
   font-size: 30px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .about {
@@ -21,11 +21,52 @@
 }
 
 .about_content {
-    padding: 40px;
+    padding: 50px;
     font-size: 25px;
     font-weight: bold;
     text-align:justify;
     color: white;
+}
+
+.fleet_header{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 75px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fleet_info p{
+  color: white;
+}
+
+.fleet_options {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.fleet_options h1 {
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.fleet_options img {
+  width: 100%;
+  height: 140px;
+}
+
+.fleet {
+  padding: 20px 150px;
 }
 
 

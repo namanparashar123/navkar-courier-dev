@@ -11,8 +11,8 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="container-fluid sec5 footercol">
-      <div className="row">
+    <footer className="container-fluid sec5 line footercol">
+      <div className="row top">
         <div className="col-sm-5 input">
           <a href="/">
             <img src={footerLogo} alt="logo" />
@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="col-sm-3 links">
-          <h5> Our Company</h5>
+          <h5>Our Company</h5>
           <ul className="footer_nav">
             <li>
               <a href="/About">About Us</a>
@@ -35,18 +35,18 @@ const Footer = () => {
         </div>
         <div className="col-sm-4 footerIcons">
         <div className="logo">
-           <a href="https://www.fb.com"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
-           <img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" />
-           <img style = {{width:'35px', height: '35px', margin:'15px'}} src={instalogo} alt="logo" />
+           <a href="https://www.facebook.com/profile.php?id=100080565692833&mibextid=ZbWKwL"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
+           <a href="https://www.fb.com"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" /></a>
+           
         </div>
             <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
-            <FontAwesomeIcon icon={faAt} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
+            <a href="https://instagram.com/navkarcourier?igshid=MzRlODBiNWFlZA=="><img style = {{width:'35px', height: '35px', margin:'15px'}} src={instalogo} alt="logo" /></a>
+        </div>
         </div>
 
-        <div className="footer line">
-          {`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved | Designed and developed by Naman Parashar`}
+        <div className="footer">
+          {`Copyright © Navkar Courier Ltd. ${year} | All Rights Reserved | Designed and developed by Naman P.`}
         </div>
-      </div>
     </footer>
   );
 };

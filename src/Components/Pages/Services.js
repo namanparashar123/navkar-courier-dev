@@ -21,22 +21,35 @@ export default function Services() {
       </div>
       <div className="services">
         <div className="iconSide">
-          <FontAwesomeIcon className="service_icons" icon={faHouseCircleCheck} size="7x" />
+          <FontAwesomeIcon
+            className="service_icons"
+            icon={faHouseCircleCheck}
+            size="7x"
+          />
           <br />
           <p>Final Mile Deliveries</p>
         </div>
         <div className="contentSide">
-          7 days a week delivery available in all the cities. Express delivery
-          options are also available.
+          Experience daily convenience with our prompt delivery service and
+          express shipping options. Whether it's e-commerce packages or
+          medications, we ensure timely and reliable deliveries for your
+          convenience.
         </div>
       </div>
       <hr />
       <div className="services">
         <div className="contentSide">
-          Content to be added.
+          From B2B to B2C, our transportation services cover it all. With a
+          250-kilometer range, we serve Brandon, MB to Kenora, ON. Trust us for
+          efficient logistics and seamless deliveries for your business and
+          customers.
         </div>
         <div className="iconSide">
-          <FontAwesomeIcon className="service_icons" icon={faTruckMoving} size="7x" />
+          <FontAwesomeIcon
+            className="service_icons"
+            icon={faTruckMoving}
+            size="7x"
+          />
           <FontAwesomeIcon className="service_icons" icon={faRoad} size="3x" />
           <br />
           <p>Shuttle Runs</p>
@@ -45,15 +58,19 @@ export default function Services() {
       <hr />
       <div className="services">
         <div className="iconSide">
-          <FontAwesomeIcon className="service_icons " icon={faPhoneVolume} size="7x" />
+          <FontAwesomeIcon
+            className="service_icons "
+            icon={faPhoneVolume}
+            size="7x"
+          />
           <br />
           <p>On-Call Services</p>
         </div>
         <div className="contentSide">
-          <ul>
-            <li>Pick-ups</li>
-            <li>Drop-offs</li>
-          </ul>
+          Our logistics company provides convenient on-call services for
+          drop-offs and pick-ups. Whether you need timely deliveries or
+          efficient pickups, our dedicated team is ready to assist you with
+          seamless logistics solutions.Í
         </div>
       </div>
     </div>

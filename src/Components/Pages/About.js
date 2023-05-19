@@ -1,5 +1,10 @@
 import React from "react";
-import './About.css';
+
+import fiveTon from "../images/5ton.png";
+import miniVan from "../images/minivan.png";
+import sprinter from "../images/sprinter.png";
+
+import "./About.css";
 
 export default function About() {
   return (
@@ -14,23 +19,38 @@ export default function About() {
           solutions.
         </p>
         <p>
-          Every delivery will be handled promptly and with the utmost
-          professionalism thanks to the dedication of our knowledgeable team of
-          logistics specialists. We provide a variety of delivery options, such
-          as same-day delivery, next-day delivery, express delivery, freight
-          services for bigger shipments, and more.
-        </p>
-        <p>
-          We at Navkar Courier are aware of the significance of each delivery.
-          Whether it's a piece of equipment or a document that must arrive on
-          time, our team is committed to making sure that your package does so
-          securely and promptly. In order to provide you peace of mind, we also
-          provide real-time tracking and delivery confirmation.
+          Navkar Courier, one of the rapid growing courier companies in Canada,
+          evolved from a small scale startup to a fully grown network of
+          extremely trained people working everyday to provide best courier
+          support to various companies. We provide strong end to end services
+          eliminating all the choke points and have emerged as the dynamic
+          logistic business support for various e-commerce business.
         </p>
         <p>
           We take great pride in being known for providing excellent customer
           service and dependability.
         </p>
+      </div>
+      <div className="fleet_info">
+        <div className="fleet_header">Our Fleet</div>
+        <p>
+          Our fleet is regularly monitored using the latest GPS technology
+          ensuring safety of your packages.
+        </p>
+        <div className="fleet_options">
+          <div className="fleet">
+            <img src={miniVan} alt="mini-van" />
+            <h1>Minivans</h1>
+          </div>
+          <div className="fleet">
+            <img src={sprinter} alt="sprinter" />
+            <h1>Sprinters</h1>
+          </div>
+          <div className="fleet">
+            <img src={fiveTon} alt="5-ton" />
+            <h1>Box Trucks</h1>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -31,9 +31,8 @@ export default function Contact() {
   return (
     <div>
       <p className="contact_content">
-        Weather you are a customer, driver or a potential client, please reach
-        out if you have any questions or feedback for us! We take feedback very
-        seriously and are devoted to make the process easier for everybody.
+        Weather you are a customer, driver or a potential client, reach
+        out if you have any questions or feedback for us!
       </p>
       <form className="mainForm" ref={form} onSubmit={sendEmail}>
         <div className="formWord">

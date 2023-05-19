@@ -134,8 +134,7 @@
 .offer_cards_card2,
 .offer_cards_card3 {
   width: 100%;
-  border: 3px #808080;
+  border: 5px pink;
   border-radius: 12px;
   padding: 30px;
-  /* background-color: #808080; */
 }

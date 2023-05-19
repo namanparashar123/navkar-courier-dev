@@ -14,17 +14,11 @@ const Home = () => {
       <div className="home_container">
         <div className="vision">Our Vision</div>
         <p className="vision-content">
-          Navkar courier seeks to be a premier, profitable provider of courier
-          industry bridging the gap and mitigating all the irregularities
-          between businesses and customers. We aspire to meet all the consumer
-          and industrial demands globally thereby focusing on our core values of
-          reliability, integrity, accountability and innovation. We believe in
-          team work and open communication and are continuously motivated to
-          update ourselves with the upcoming innovations.
+        Navkar courier aims to bridge gaps in the courier industry, meeting Canadian demands with reliability, integrity, and innovation through teamwork and open communication.
         </p>
       </div>
       <h2 className="target">
-        We are a fast-growing company that delivers over 200,000 packages a
+        We are a fast-growing company that delivers over 450,000 packages a
         year.
       </h2>
       <h3>
@@ -35,7 +29,7 @@ const Home = () => {
         <br />
         <br />
         We can offer you excellent delivery options for some of the lowest
-        prices available within Canada.
+        prices available within Canada. 
       </h3>
       <br />
       <div className="button_div">

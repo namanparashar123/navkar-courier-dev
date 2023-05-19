@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
     <div className="main-container">
       <Navigation />
-      <div className='title-bg'><h1 className='title'>Navkar Courier Ltd.</h1></div>
+      <div className='title-bg'><h1 className='title'>Shipping Made Simple.</h1></div>
       <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/About" element={<About />}/>

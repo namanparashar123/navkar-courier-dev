@@ -5,7 +5,6 @@ import winnipeg from "../images/winni.png";
 import london from "../images/London.jpeg";
 import brandon from "../images/brandon.jpeg";
 
-
 const Locations = () => {
   const slides = [
     { imageUrl: `${winnipeg}`, title: "Winnipeg, MB" },
@@ -72,28 +71,34 @@ const Locations = () => {
 
   return (
     <div>
-    <div className="prime_container">
-    <div style={containerStyles}>
-      <div style={sliderStyles}>
-        <div style={leftArrowStyles} onClick={goToPrev}>❰</div>
-        <div style={rightArrowStyles} onClick={goToNext}>❱</div>
-        <div
-          style={slideStyles}
-        ></div>
+      <div className="prime_container">
+        <div style={containerStyles}>
+          <div style={sliderStyles}>
+            <div style={leftArrowStyles} onClick={goToPrev}>
+              ❰
+            </div>
+            <div style={rightArrowStyles} onClick={goToNext}>
+              ❱
+            </div>
+            <div style={slideStyles}></div>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    <div className="locations_list">
-    <p className="location_content">The following cities are where Navkar Courier is now in operation:</p>
-    <ul>
-      <li>Winnipeg, MB</li>
-      <li>Brandon, MB</li>
-      <li>Kenora, ON</li>
-      <li>Toronto, ON</li>
-      <li>London, ON</li>
-    </ul>
-  </div>
-  </div>
+      <div className="locations_list">
+        <p className="location_content">
+          The following cities are where Navkar Courier is now in operation:
+        </p>
+          <div className="topRow">
+            <div className="box">Winnipeg, MB</div>
+            <div className="box">Toronto, ON</div>
+            <div className="box">Kenora, ON</div>
+          </div>
+          <div className="bottomRow">
+            <div className="box">Brandon, MB</div>
+            <div className="box">London, ON</div>
+          </div>
+        </div>
+      </div>
   );
 };
 

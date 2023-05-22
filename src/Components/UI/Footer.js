@@ -2,7 +2,7 @@ import React from "react";
 import footerLogo from "../images/Logo_footer.png";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faAt } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import fblogo from "../images/fblogo.png"
 import whatspplogo from "../images/whatspplogo.png"
 import instalogo from "../images/instalogo.png"
@@ -34,13 +34,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-sm-4 footerIcons">
-        <div className="logo">
            <a href="https://www.facebook.com/profile.php?id=100080565692833&mibextid=ZbWKwL"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
            <a href="https://www.fb.com"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" /></a>
-           
-        </div>
-            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
             <a href="https://instagram.com/navkarcourier?igshid=MzRlODBiNWFlZA=="><img style = {{width:'35px', height: '35px', margin:'15px'}} src={instalogo} alt="logo" /></a>
+            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
         </div>
         </div>
 

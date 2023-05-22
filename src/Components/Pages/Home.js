@@ -11,12 +11,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="main_div">
-      <div className="home_container">
-        <div className="vision">Our Vision</div>
-        <p className="vision-content">
-        Navkar courier aims to bridge gaps in the courier industry, meeting Canadian demands with reliability, integrity, and innovation through teamwork and open communication.
-        </p>
-      </div>
       <h2 className="target">
         We are a fast-growing company that delivers over 450,000 packages a
         year.
@@ -37,8 +31,6 @@ const Home = () => {
           Checkout our services?
         </a>
       </div>
-
-      <h1 className="interest">Interested in any of these?</h1>
 
       <div className="offer_cards">
         <div className="offer_cards_card1">

@@ -9,6 +9,12 @@ import "./About.css";
 export default function About() {
   return (
     <div className="about_container">
+      <div className="home_container">
+        <div className="vision">Our Vision</div>
+        <p className="vision-content">
+        Navkar courier aims to bridge gaps in the courier industry, meeting Canadian demands with reliability, integrity, and innovation through teamwork and open communication.
+        </p>
+      </div>
       <div className="about">Our Story</div>
       <div className="about_content">
         <p>

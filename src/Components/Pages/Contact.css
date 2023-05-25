@@ -62,3 +62,28 @@
   color: #5a5a5a;
   transition: 0.5s;
 }
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .contact_content {
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .mainForm {
+    flex-direction: column;
+  }
+
+  .input100 {
+    padding: 8px;
+  }
+
+  .submitBtn {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .formMessage {
+    width: 55%;
+  }
+}

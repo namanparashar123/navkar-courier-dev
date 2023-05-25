@@ -84,3 +84,39 @@
     margin-top: 25px;
     margin-bottom: 50px;
   }
+
+  @media (max-width: 768px) {
+    /* Styles for screens up to 768px */
+    .location_content {
+      font-size: 30px;
+    }
+  
+    .locations_list {
+      font-size: 28px;
+    }
+  
+    .box {
+      font-size: 20px;
+      width: 200px;
+      height: 40px;
+      margin: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for screens up to 480px */
+    .location_content {
+      font-size: 25px;
+    }
+  
+    .locations_list {
+      font-size: 24px;
+    }
+  
+    .box {
+      font-size: 18px;
+      width: 180px;
+      height: 35px;
+      margin: 15px;
+    }
+  }

@@ -39,3 +39,32 @@
   box-shadow: none !important;
   color: black;
 }
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  .career_para {
+    padding: 50px;
+  }
+  
+  .card {
+    margin: 30px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .career_para {
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  .card li {
+    font-size: 18px;
+  }
+}

@@ -101,3 +101,24 @@
   background-size: cover;
   box-shadow: 0 0 200px #191715 inset;
 }
+
+@media screen and (max-width: 600px) {
+  .about_container,
+  .vision,
+  .vision-content,
+  .about,
+  .about_content,
+  .fleet_header,
+  .fleet_info p,
+  .fleet_options,
+  .fleet_options h1,
+  .fleet_options img,
+  .fleet {
+    padding: 10px;
+  }
+}
+
+/* Tablets and Small Desktops */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+ 
+}

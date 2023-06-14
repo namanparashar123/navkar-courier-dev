@@ -6,6 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import fblogo from "../images/fblogo.png"
 import whatspplogo from "../images/whatspplogo.png"
 import instalogo from "../images/instalogo.png"
+import gmailLogo from "../images/gmailLogo.png"
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -37,7 +38,7 @@ const Footer = () => {
            <a href="https://www.facebook.com/profile.php?id=100080565692833&mibextid=ZbWKwL"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
            <a href="https://www.fb.com"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" /></a>
             <a href="https://instagram.com/navkarcourier?igshid=MzRlODBiNWFlZA=="><img style = {{width:'35px', height: '35px', margin:'15px'}} src={instalogo} alt="logo" /></a>
-            <FontAwesomeIcon icon={faEnvelope} style={{color: "#ffffff", margin:'15px'}} size="2x"/>
+            <a href=""><img style = {{width:'40px', height: '30px', margin:'15px'}} src={gmailLogo} alt="logo" /></a>
         </div>
         </div>
 

@@ -37,27 +37,6 @@ export default function About() {
           service and dependability.
         </p>
       </div>
-      <div className="fleet_info">
-        <div className="fleet_header">Our Fleet</div>
-        <p>
-          Our fleet is regularly monitored using the latest GPS technology
-          ensuring safety of your packages.
-        </p>
-        <div className="fleet_options">
-          <div className="fleet">
-            <img src={miniVan} alt="mini-van" />
-            <h1>Minivans</h1>
-          </div>
-          <div className="fleet">
-            <img src={sprinter} alt="sprinter" />
-            <h1>Sprinters</h1>
-          </div>
-          <div className="fleet">
-            <img src={fiveTon} alt="5-ton" />
-            <h1>Box Trucks</h1>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

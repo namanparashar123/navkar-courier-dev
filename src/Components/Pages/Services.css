@@ -72,10 +72,21 @@ hr {
     padding: 10px 30px;
   }
 
-  .iconSide p {
-    font-size: 40px;
+  iconSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  .iconSide p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .contentSide{
+    text-align: start;
+    font-size: 15px;
+    padding: 7px;
+  }
   hr {
     width: 70%;
     margin: 3% 15% !important;
@@ -97,12 +108,20 @@ hr {
     padding: 10px 20px;
   }
 
-  .iconSide{
-    padding-right: 10px;
+  .iconSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .iconSide p {
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .contentSide{
+    text-align: start;
+    font-size: 15px;
+    padding: 7px;
   }
 
   hr {

@@ -20,3 +20,15 @@
   margin-top: 200px;
 }
 
+@media (max-width: 768px) {
+  .title{
+    font-size: 70px;
+    font-family: 'Pathway Extreme', sans-serif;
+    background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 250px;
+  }
+}

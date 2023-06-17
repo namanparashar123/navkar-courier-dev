@@ -94,14 +94,6 @@
   padding: 20px 150px;
 }
 
-.fleet_info {
-  background-image: url(../images/fleet-bg.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: 0 0 200px #191715 inset;
-}
-
 @media screen and (max-width: 600px) {
   .about_container,
   .vision,

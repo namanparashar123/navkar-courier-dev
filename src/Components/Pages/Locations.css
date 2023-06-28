@@ -101,6 +101,10 @@
       height: 40px;
       margin: 20px;
     }
+
+    .prime_container{
+      display: none;
+    }
   }
   
   @media (max-width: 480px) {
@@ -118,5 +122,9 @@
       width: 180px;
       height: 35px;
       margin: 15px;
+    }
+    
+    .prime_container{
+      display: none;
     }
   }

@@ -138,6 +138,10 @@
   .button_div {
     flex-wrap: wrap;
   }
+
+  .main_div h3 {
+    font-size: 20px;
+  }
   
   .service_button_card {
     width: 100%;
@@ -167,10 +171,7 @@
   
   .main_div h3 {
     padding: 0px 30px;
-  }
-  
-  .button_div {
-    flex-direction: column;
+    font-size: 20px;
   }
   
   .service_button_card {

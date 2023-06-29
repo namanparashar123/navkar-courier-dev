@@ -89,7 +89,7 @@
     /* Styles for screens up to 768px */
 
     .prime_container {
-      width: 500px;
+      display: none;
   }
 
     .location_content {
@@ -112,7 +112,7 @@
     /* Styles for screens up to 480px */
 
     .prime_container {
-      width: 500px;
+      display: none;
   }
 
     .location_content {

@@ -18,18 +18,18 @@ const Navigation = () => {
     </Nav.Item>
     <ul className="nav-bar"> 
       <Nav.Item as="li">
-        <Nav.Link style={{color:"white"}} href="/">Home</Nav.Link>
+        <Nav.Link style={{color:"white"}} href="/navkar-courier-dev">Home</Nav.Link>
       </Nav.Item>
       < NavDropdown className="nav_dropdown" title="Company" id="nav-dropdown" style={{color: 'white'}}>
-        <NavDropdown.Item href="/About" >About Us</NavDropdown.Item>
-        <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
-        <NavDropdown.Item href="/Locations">Locations</NavDropdown.Item>
+        <NavDropdown.Item href="/navkar-courier-dev/About" >About Us</NavDropdown.Item>
+        <NavDropdown.Item href="/navkar-courier-dev/Careers">Careers</NavDropdown.Item>
+        <NavDropdown.Item href="/navkar-courier-dev/Locations">Locations</NavDropdown.Item>
     </NavDropdown>
       <Nav.Item as="li">
-        <Nav.Link style={{color:"white"}} href='/Services'>Services</Nav.Link>
+        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/Services'>Services</Nav.Link>
       </Nav.Item>
       <Nav.Item as="li">
-        <Nav.Link style={{color:"white"}} href='/Contact'>Contact</Nav.Link>
+        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/Contact'>Contact</Nav.Link>
       </Nav.Item>
     </ul>
 </Nav>

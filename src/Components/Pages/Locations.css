@@ -87,6 +87,11 @@
 
   @media (max-width: 768px) {
     /* Styles for screens up to 768px */
+
+    .prime_container {
+      display: none;
+  }
+
     .location_content {
       font-size: 30px;
     }
@@ -109,6 +114,11 @@
   
   @media (max-width: 480px) {
     /* Styles for screens up to 480px */
+
+    .prime_container {
+      display: none;
+  }
+
     .location_content {
       font-size: 25px;
     }

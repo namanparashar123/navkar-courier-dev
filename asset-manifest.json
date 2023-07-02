@@ -1,7 +1,7 @@
 {
   "main.css": "/navkar-courier-dev/static/css/main.4a8280e6.chunk.css",
-  "main.js": "/navkar-courier-dev/static/js/main.b4c7daf6.chunk.js",
-  "main.js.map": "/navkar-courier-dev/static/js/main.b4c7daf6.chunk.js.map",
+  "main.js": "/navkar-courier-dev/static/js/main.ffb88250.chunk.js",
+  "main.js.map": "/navkar-courier-dev/static/js/main.ffb88250.chunk.js.map",
   "static/js/1.fd455814.chunk.js": "/navkar-courier-dev/static/js/1.fd455814.chunk.js",
   "static/js/1.fd455814.chunk.js.map": "/navkar-courier-dev/static/js/1.fd455814.chunk.js.map",
   "static/css/2.e3d45b5e.chunk.css": "/navkar-courier-dev/static/css/2.e3d45b5e.chunk.css",
@@ -19,9 +19,9 @@
   "static/media/winni.png": "/navkar-courier-dev/static/media/winni.2bcaf2e4.png",
   "static/media/London.jpeg": "/navkar-courier-dev/static/media/London.8cc68054.jpeg",
   "static/media/brandon.jpeg": "/navkar-courier-dev/static/media/brandon.5f481a26.jpeg",
-  "static/css/2.e3d45b5e.chunk.css.map": "/navkar-courier-dev/static/css/2.e3d45b5e.chunk.css.map",
   "static/css/main.4a8280e6.chunk.css.map": "/navkar-courier-dev/static/css/main.4a8280e6.chunk.css.map",
+  "static/css/2.e3d45b5e.chunk.css.map": "/navkar-courier-dev/static/css/2.e3d45b5e.chunk.css.map",
   "index.html": "/navkar-courier-dev/index.html",
-  "precache-manifest.cb306d8a2ccbdf4ff1807b2bd22fe829.js": "/navkar-courier-dev/precache-manifest.cb306d8a2ccbdf4ff1807b2bd22fe829.js",
+  "precache-manifest.5a0c9caea4f71e3419cd8052f8dba907.js": "/navkar-courier-dev/precache-manifest.5a0c9caea4f71e3419cd8052f8dba907.js",
   "service-worker.js": "/navkar-courier-dev/service-worker.js"
 }

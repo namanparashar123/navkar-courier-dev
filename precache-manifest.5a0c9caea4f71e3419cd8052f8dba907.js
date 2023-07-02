@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b4c7daf677c924b3d5a9",
+    "revision": "ffb88250d7b42ff0a1e1",
     "url": "/navkar-courier-dev/static/css/main.4a8280e6.chunk.css"
   },
   {
-    "revision": "b4c7daf677c924b3d5a9",
-    "url": "/navkar-courier-dev/static/js/main.b4c7daf6.chunk.js"
+    "revision": "ffb88250d7b42ff0a1e1",
+    "url": "/navkar-courier-dev/static/js/main.ffb88250.chunk.js"
   },
   {
     "revision": "fd4558148f9f5a1e56bf",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/navkar-courier-dev/static/media/brandon.5f481a26.jpeg"
   },
   {
-    "revision": "1c2196af102ce94bcb8bbb85f8506ccb",
+    "revision": "4d94df5e60ebb63af7a4f5189eb464c9",
     "url": "/navkar-courier-dev/index.html"
   }
 ];

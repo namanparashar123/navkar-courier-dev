@@ -19,11 +19,11 @@ function App() {
       <div className='title-bg'><h1 className='title'>Shipping Made Simple.</h1></div>
       <Routes>
           <Route path="https://namanparashar123.github.io/navkar-courier-dev" element={<Home />}/>
-          <Route path="/About" element={<About />}/>
-          <Route path="/Careers" element={<Careers />}/>
-          <Route path="/Locations" element={<Locations />}/>
-          <Route path="/services" element={<Services />}/>
-          <Route path="/contact" element={<Contact />}/>
+          <Route path="https://namanparashar123.github.io/navkar-courier-dev/About" element={<About />}/>
+          <Route path="https://namanparashar123.github.io/navkar-courier-dev/Careers" element={<Careers />}/>
+          <Route path="https://namanparashar123.github.io/navkar-courier-dev/Locations" element={<Locations />}/>
+          <Route path="https://namanparashar123.github.io/navkar-courier-dev/services" element={<Services />}/>
+          <Route path="https://namanparashar123.github.io/navkar-courier-dev/contact" element={<Contact />}/>
        </Routes>
       <Footer></Footer>
     </div>

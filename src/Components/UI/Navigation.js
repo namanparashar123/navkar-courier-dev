@@ -10,7 +10,7 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <Nav defaultActiveKey="/home" as="ul" className="navigation">
+    <Nav defaultActiveKey="/home" as="ul" className="navigation" activeKey="/">
     <Nav.Item as="li" className="nav-logo">
       <a href="/">
         <img src={logo} alt="logo" />

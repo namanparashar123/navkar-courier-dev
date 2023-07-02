@@ -1,7 +1,7 @@
 {
   "main.css": "/navkar-courier-dev/static/css/main.4a8280e6.chunk.css",
-  "main.js": "/navkar-courier-dev/static/js/main.ffb88250.chunk.js",
-  "main.js.map": "/navkar-courier-dev/static/js/main.ffb88250.chunk.js.map",
+  "main.js": "/navkar-courier-dev/static/js/main.5c49f1fd.chunk.js",
+  "main.js.map": "/navkar-courier-dev/static/js/main.5c49f1fd.chunk.js.map",
   "static/js/1.fd455814.chunk.js": "/navkar-courier-dev/static/js/1.fd455814.chunk.js",
   "static/js/1.fd455814.chunk.js.map": "/navkar-courier-dev/static/js/1.fd455814.chunk.js.map",
   "static/css/2.e3d45b5e.chunk.css": "/navkar-courier-dev/static/css/2.e3d45b5e.chunk.css",
@@ -22,6 +22,6 @@
   "static/css/main.4a8280e6.chunk.css.map": "/navkar-courier-dev/static/css/main.4a8280e6.chunk.css.map",
   "static/css/2.e3d45b5e.chunk.css.map": "/navkar-courier-dev/static/css/2.e3d45b5e.chunk.css.map",
   "index.html": "/navkar-courier-dev/index.html",
-  "precache-manifest.5a0c9caea4f71e3419cd8052f8dba907.js": "/navkar-courier-dev/precache-manifest.5a0c9caea4f71e3419cd8052f8dba907.js",
+  "precache-manifest.05db06c6f9f9b8894762db29175a2f23.js": "/navkar-courier-dev/precache-manifest.05db06c6f9f9b8894762db29175a2f23.js",
   "service-worker.js": "/navkar-courier-dev/service-worker.js"
 }

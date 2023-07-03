@@ -13,7 +13,7 @@ import Locations from './Components/Pages/Locations';
 
 function App() {
   return (
-    <BrowserRouter basename="/navkar-courier-dev">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="main-container">
       <Navigation />
       <div className='title-bg'><h1 className='title'>Shipping Made Simple.</h1></div>

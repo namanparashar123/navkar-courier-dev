@@ -29,7 +29,7 @@ const Navigation = () => {
         <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/services'>Services</Nav.Link>
       </Nav.Item>
       <Nav.Item as="li">
-        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/sontact'>Contact</Nav.Link>
+        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/contact'>Contact</Nav.Link>
       </Nav.Item>
     </ul>
 </Nav>

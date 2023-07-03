@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './Components/UI/Navigation';
 import Footer from './Components/UI/Footer';
 import Home from './Components/Pages/Home';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
 import About from './Components/Pages/About';
@@ -13,7 +13,7 @@ import Locations from './Components/Pages/Locations';
 
 function App() {
   return (
-    <HashRouter baseline = "/">
+    <BrowserRouter>
     <div className="main-container">
       <Navigation />
       <div className='title-bg'><h1 className='title'>Shipping Made Simple.</h1></div>
@@ -27,7 +27,7 @@ function App() {
        </Routes>
       <Footer></Footer>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

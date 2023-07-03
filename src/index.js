@@ -9,7 +9,11 @@ import { HashRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <HashRouter
+   basename="/navkar-courier-dev"
+    hashType="hashbang">
+  <App />
+</HashRouter>
   </React.StrictMode>
 );
 

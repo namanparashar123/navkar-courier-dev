@@ -21,15 +21,15 @@ const Navigation = () => {
         <Nav.Link style={{color:"white"}} href="/navkar-courier-dev">Home</Nav.Link>
       </Nav.Item>
       < NavDropdown className="nav_dropdown" title="Company" id="nav-dropdown" style={{color: 'white'}}>
-        <NavDropdown.Item href="/navkar-courier-dev/About" >About Us</NavDropdown.Item>
-        <NavDropdown.Item href="/navkar-courier-dev/Careers">Careers</NavDropdown.Item>
-        <NavDropdown.Item href="/navkar-courier-dev/Locations">Locations</NavDropdown.Item>
+        <NavDropdown.Item href="/navkar-courier-dev/about" >About Us</NavDropdown.Item>
+        <NavDropdown.Item href="/navkar-courier-dev/careers">Careers</NavDropdown.Item>
+        <NavDropdown.Item href="/navkar-courier-dev/locations">Locations</NavDropdown.Item>
     </NavDropdown>
       <Nav.Item as="li">
-        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/Services'>Services</Nav.Link>
+        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/services'>Services</Nav.Link>
       </Nav.Item>
       <Nav.Item as="li">
-        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/Contact'>Contact</Nav.Link>
+        <Nav.Link style={{color:"white"}} href='/navkar-courier-dev/sontact'>Contact</Nav.Link>
       </Nav.Item>
     </ul>
 </Nav>

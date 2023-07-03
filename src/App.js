@@ -19,9 +19,9 @@ function App() {
       <div className='title-bg'><h1 className='title'>Shipping Made Simple.</h1></div>
       <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/About" element={<About />}/>
-          <Route path="/Careers" element={<Careers />}/>
-          <Route path="/Locations" element={<Locations />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/careers" element={<Careers />}/>
+          <Route path="/locations" element={<Locations />}/>
           <Route path="/services" element={<Services />}/>
           <Route path="/contact" element={<Contact />}/>
        </Routes>

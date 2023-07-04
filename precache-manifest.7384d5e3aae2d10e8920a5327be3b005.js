@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/navkar-courier-dev/static/media/brandon.5f481a26.jpeg"
   },
   {
-    "revision": "fa665c66595d5d2ddc00b67aa08b550d",
+    "revision": "d66f16fe20b84713efe959bbb76f153c",
     "url": "/navkar-courier-dev/index.html"
   }
 ];

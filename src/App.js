@@ -13,19 +13,18 @@ import Locations from './Components/Pages/Locations';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/navkar-courier-dev">
     <div className="main-container">
       <Navigation />
       <div className='title-bg'><h1 className='title'>Shipping Made Simple.</h1></div>
       <Routes>
-          <Route path="/home" element={<Home />}/>
+          <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/careers" element={<Careers />}/>
           <Route path="/locations" element={<Locations />}/>
           <Route path="/services" element={<Services />}/>
           <Route path="/contact" element={<Contact />}/>
        </Routes>
-      <Footer></Footer>
     </div>
     </BrowserRouter>
   );

@@ -1,12 +1,12 @@
 {
   "main.css": "/navkar-courier-dev/static/css/main.a989994d.chunk.css",
-  "main.js": "/navkar-courier-dev/static/js/main.363d65c3.chunk.js",
-  "main.js.map": "/navkar-courier-dev/static/js/main.363d65c3.chunk.js.map",
+  "main.js": "/navkar-courier-dev/static/js/main.cc87ecc5.chunk.js",
+  "main.js.map": "/navkar-courier-dev/static/js/main.cc87ecc5.chunk.js.map",
   "static/js/1.fd455814.chunk.js": "/navkar-courier-dev/static/js/1.fd455814.chunk.js",
   "static/js/1.fd455814.chunk.js.map": "/navkar-courier-dev/static/js/1.fd455814.chunk.js.map",
   "static/css/2.2c4e75d0.chunk.css": "/navkar-courier-dev/static/css/2.2c4e75d0.chunk.css",
-  "static/js/2.123edc7f.chunk.js": "/navkar-courier-dev/static/js/2.123edc7f.chunk.js",
-  "static/js/2.123edc7f.chunk.js.map": "/navkar-courier-dev/static/js/2.123edc7f.chunk.js.map",
+  "static/js/2.d0d7edaa.chunk.js": "/navkar-courier-dev/static/js/2.d0d7edaa.chunk.js",
+  "static/js/2.d0d7edaa.chunk.js.map": "/navkar-courier-dev/static/js/2.d0d7edaa.chunk.js.map",
   "runtime~main.js": "/navkar-courier-dev/static/js/runtime~main.489dcbd4.js",
   "runtime~main.js.map": "/navkar-courier-dev/static/js/runtime~main.489dcbd4.js.map",
   "static/media/Logo.png": "/navkar-courier-dev/static/media/Logo.19639119.png",
@@ -19,9 +19,9 @@
   "static/media/winni.png": "/navkar-courier-dev/static/media/winni.2bcaf2e4.png",
   "static/media/London.jpeg": "/navkar-courier-dev/static/media/London.8cc68054.jpeg",
   "static/media/brandon.jpeg": "/navkar-courier-dev/static/media/brandon.5f481a26.jpeg",
-  "static/css/main.a989994d.chunk.css.map": "/navkar-courier-dev/static/css/main.a989994d.chunk.css.map",
   "static/css/2.2c4e75d0.chunk.css.map": "/navkar-courier-dev/static/css/2.2c4e75d0.chunk.css.map",
+  "static/css/main.a989994d.chunk.css.map": "/navkar-courier-dev/static/css/main.a989994d.chunk.css.map",
   "index.html": "/navkar-courier-dev/index.html",
-  "precache-manifest.48eafd7881ec31d2307c3f03ce48df04.js": "/navkar-courier-dev/precache-manifest.48eafd7881ec31d2307c3f03ce48df04.js",
+  "precache-manifest.521c1357a0c5197a91236d67f7f06b82.js": "/navkar-courier-dev/precache-manifest.521c1357a0c5197a91236d67f7f06b82.js",
   "service-worker.js": "/navkar-courier-dev/service-worker.js"
 }

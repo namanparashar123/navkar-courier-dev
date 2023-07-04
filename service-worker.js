@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/navkar-courier-dev/precache-manifest.48eafd7881ec31d2307c3f03ce48df04.js"
+  "/navkar-courier-dev/precache-manifest.521c1357a0c5197a91236d67f7f06b82.js"
 );
 
 workbox.clientsClaim();
